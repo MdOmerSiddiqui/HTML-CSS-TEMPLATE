@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height:100%;
+    width: 100%;
+    background-color:#ffffe7;
+    
+}
+
+#nav-bar{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-bar h1{
+    font-weight: 350;
+    padding: 10px 20px;
+}
+
+#features{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 30px;
+}
+
+ #features h3{
+     font-family: "EB Garamond", serif;
+     font-weight: 300;
+     text-transform: uppercase;
+     padding: 7px 20px;
+}
+#features h3:hover{
+    cursor:pointer;
+}
+
+#icons{
+    gap: 40px;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#icons i:hover{
+    cursor: pointer;
+    padding: 7px 10px;
+}
+#main #container{
+    height: 90.5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+#container #image {
+    height:100% ;
+    width: 50%;
+}
+
+#container img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    object-position: left;
+}
+
+#content{
+    height:100%;
+    width: 50%;
+    position: relative;
+}
+
+
+#container #content h3{
+    font-size: 47px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#detail {
+    position: absolute;
+    height: 60%;
+    width: 60%;
+    top: 30%;
+    left: 20%;
+}
+
+#detail p{
+    margin-top: 5%;
+}
+
+#detail h2{
+    margin-top: 5%;
+    border: 1.5px solid black;
+    
+    padding: 7px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 350;
+}
+
+#detail h2:hover{
+    cursor: pointer;
+    background-color: #eee7ca;
+}
+
+#products-section{
+    height: 110%;
+    width: 100%;
+    background-color: rgb(254, 237, 212);
+}
+
+#first-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+#products-section h3{
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    font-weight: 300;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#first-section img{
+    height: 170px;
+    width: 190px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+#first-section h4,h5{
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+#second-section h4,h5{
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+#first-section h4{
+    padding: 10px 12px;
+    border: 1.5px solid black;
+    text-align: center;
+}
+#second-section h4{
+    padding: 10px 12px;
+    border: 1.5px solid black;
+    text-align: center;
+}
+
+#first-section h4:hover{
+    cursor: pointer;
+    background-color:#facc9d;
+}
+
+#second-section h4:hover{
+    cursor: pointer;
+    background-color:#facc9d;
+}
+
+#second-section img{
+    height: 170px;
+    width: 190px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#second-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+#end-part{
+    height: 100%;
+    width: 100%;
+    background-color: #fff4de;
+    display: flex;
+}
+
+#right-end-img{
+height: 100%;
+width: 100%;
+}
+
+#right-end{
+    height: 100%;
+width: 100%;
+}
+
+#right-end-img img{
+object-fit:cover;
+height: 100%;
+width: 100%;
+}
+
+#left-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 60px;
+    gap: 20px;
+    height: 100%;
+    width: 50%;
+}
+
+#left-end h2{
+    width: 100%;
+    font-size: 65px;
+    font-weight: 350;
+}
+
+#left-end p{
+    font-size: 17px;
+}
+
+#left-end h4{
+    padding: 10px 20px;
+    border: 1.5px solid black;
+    font-weight: 320;
+    width: 100%;
+    text-align: center;
+}
+
+#left-end h4:hover{
+    background-color: #facc9d;
+}
